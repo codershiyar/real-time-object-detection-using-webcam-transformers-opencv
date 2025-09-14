@@ -48,21 +48,28 @@ pip install -r requirements.txt
 
 > If you don’t have a virtual environment, it’s recommended to create one first.
 
-### 3. Run the live webcam detection
+### 3. Run real-time detection (webcam)
 
 ```bash
-python using-webcam.py
+python detect_using_webcam.py
 ```
 
 Press **`q`** to quit the live stream.
 
-### 4. Run object detection on an image
+### 4. Run detection on an image (visual overlay)
 
 ```bash
-python using-imgs.py
+python detect_image_visual.py
 ```
+By default this script loads imgs/img2.png.
 
-Make sure the image file `img.png` exists in the same directory.
+---
+### 5. Run detection on an image (console output)
+
+```bash
+python detect_image_console.py
+```
+By default this script loads imgs/img.png and prints the detected labels and confidence scores in the terminal.
 
 ---
 

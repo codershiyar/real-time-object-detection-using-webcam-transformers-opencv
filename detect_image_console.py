@@ -9,7 +9,7 @@ import torch  # For tensors and model inference
 
 # 1️⃣ Load the image you want to run detection on
 # Make sure "img.png" is in the same folder as this script
-image = Image.open("./imgs/img2.png")
+image = Image.open("./imgs/img.png")
 
 # 2️⃣ Load the pretrained DETR model and its image processor
 # The 'no_timm' version avoids needing extra libraries like timm
